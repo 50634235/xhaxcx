@@ -1,0 +1,48 @@
+<view class='activityDet-top'>
+  <image src='../../../images/activityDet/activityDet-1.png'></image>
+  <view class='activityDet-top-view1'>投票中</view>
+  <view class='activityDet-top-view2'>FM915吃在青岛美食评选</view>
+</view>
+<view class='activityDet-date'>
+  <view class='activityDet-date-list activityDet-date-list1'>
+    <image src='../../../images/icon/activityDet-icon1.png'></image>
+    <view>截止投票   2017-10-05 12:00</view>
+  </view>
+  <view class='activityDet-date-list'>
+    <image src='../../../images/icon/activityDet-icon2.png'></image>
+    <view>活动时间   2017-09-25 12:00 — 2017-10-05 12:00</view>
+  </view>
+</view>
+<view class='activityDet-comment'>
+  <view class='activityDet-comment-title'>
+    <view>活动介绍</view>
+  </view>
+  <view class='activityDet-comment-text'>第一届吃在青岛美食评选于今年4月10日正式拉开帷幕。“民以食为天”，美食永远是百姓关注的焦点，尤其是在现今网络分享如此快捷简便的时代，更是涌现了一批批的美食达人。同时打造金牌厨师、明星厨师的概念，借势央视、助力酒店，也是全域旅游的深度亮相。</view>
+  <image src='../../../images/activityDet/activityDet-2.png' class='activityDet-comment-img'></image>
+  <view class='activityDet-comment-text'>第一届吃在青岛美食评选于今年4月10日正式拉开帷幕。“民以食为天”，美食永远是百姓关注的焦点，尤其是在现今网络分享如此快捷简便的时代，更是涌现了一批批的美食达人。同时打造金牌厨师、明星厨师的概念，借势央视、助力酒店，也是全域旅游的深度亮相。</view>
+  <image src='../../../images/activityDet/activityDet-3.png' class='activityDet-comment-img'></image>
+  <view class='activityDet-comment-text'>第一届吃在青岛美食评选于今年4月10日正式拉开帷幕。“民以食为天”，美食永远是百姓关注的焦点，尤其是在现今网络分享如此快捷简便的时代，更是涌现了一批批的美食达人。同时打造金牌厨师、明星厨师的概念，借势央视、助力酒店，也是全域旅游的深度亮相。</view>
+</view>
+<view class='activityDet-footer'>
+<view class='activityDet-footer-left'>
+  <view class='activityDet-footte-list' bindtap='dianzan'>
+    <view class='activityDet-footte-list-icon'>
+      <image src="{{activeDianzan==1 ? resultIcon1 : resultIcon2}}" data-active="1"></image>
+    </view>
+    <view style='color:{{colorDianzan}}'>{{resultZan}}</view>
+  </view>
+  <view class='activityDet-footte-list'>
+    <view class='activityDet-footte-list-icon'>
+      <image src='../../../images/icon/indexDet-2@2x.png'></image>
+    </view>
+    <view>1326</view>
+  </view>
+  <view class='activityDet-footte-list' bindtap='shoucang'>
+    <view class='activityDet-footte-list-icon'>
+      <image src="{{activeShoucang==1 ? resultIcon3 : resultIcon4}}" data-active="1"></image>
+    </view>
+    <view style='color:{{colorShoucang}}'>{{resultShou}}</view>
+  </view>
+</view>
+<view class='activityDet-footte-btn' bindtap='toupiao'>参与投票</view>
+</view>

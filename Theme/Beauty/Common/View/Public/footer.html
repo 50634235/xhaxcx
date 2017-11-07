@@ -1,0 +1,70 @@
+<div class="footer-bar ">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12" style="border-bottom: 1px solid #516980">
+
+
+                <div class="col-xs-4"  >
+
+                <div class="introduce">
+                    <h1 style="color: #D0AF51;"><b>关于我们</b></h1>
+                    <div style="color: white"> {:modC('ABOUT_US','暂未设置','Config')}</div>
+                </div>
+
+
+                </div>
+
+                <div class="col-xs-4" style="border-right:  dashed 1px forestgreen;border-left: dashed 1px forestgreen " >
+                    <h1 style="color: #D0AF51;"><b>关注我们</b></h1>
+                    <div style="color: white"> {:modC('SUBSCRIB_US','暂未设置','Config')}</div>
+                    <hr class="zx">
+                    <a href="http://www.ourstu.com/" target="_blank" style="color: white"> <p style="display: inline-block">View More Details</p></a>
+                    <hr class="zx">
+    </div>
+
+                <div class="col-xs-4" >
+
+                    <div class="friend-link" >
+                        <h1 style="color: #D0AF51;text-align: left"><b>友情链接</b></h1>
+                        {:Hook('friendLink')}<br>
+                    </div>
+
+                </div>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;登录分享：</p>
+                <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://wx.qq.com/" target="_blank"><!--<img src="http://static.shijue.cvidea.cn/images/blog_weixin.png" alt="微信">-->微信&nbsp;&nbsp;</a>
+                    <a href="http://connect.qq.com/qqlogin" target="_blank"><!--<img src="http://static.shijue.cvidea.cn/images/blog_tx.png" alt="腾讯QQ">-->腾讯QQ</a>&nbsp;&nbsp;
+                    <a href="http://weibo.com/" target="_blank"><!--<img src="http://static.shijue.cvidea.cn/images/blog_txblog_new.png" alt="微博">-->微博</a>&nbsp;&nbsp;
+                    <a href="http://www.renren.com/" target="_blank"><!--<img src="http://static.shijue.cvidea.cn/images/blog_renren.png" alt="人人网">-->人人网</a>
+
+              </p>
+
+
+
+
+
+
+
+                <div class="col-xs-12" style="color: white;margin-top: 40px; border-bottom: 1px  outset white;border-top:1px inset white" align="center" >
+
+                    {:modC('COPY_RIGHT','暂未设置','Config')}
+                Powered by <a style="color: #D0AF51;" target="_blank" href="http://www.opensns.cn">OpenSNS</a>
+                备案号：<a href="http://www.miitbeian.gov.cn/" target="_blank" style="color: #D0AF51;">
+                {:modC('ICP','暂未设置','Config')} </a>
+            </div>
+        </>
+    </>
+
+</div>
+<include file="Public/js"/>
+
+<block name="script"><!-- 用于加载js代码 --></block>
+
+<!-- 页面footer钩子，一般用于加载插件JS文件和JS代码 -->
+{:hook('pageFooter', 'widget')}
+<div class="hidden"><!-- 用于加载统计代码等隐藏元素 -->
+    <block name="hidden"></block>
+</div>

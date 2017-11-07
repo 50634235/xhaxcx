@@ -1,0 +1,91 @@
+.indexDet-img-one{
+  width: 100%;
+
+}
+.indexDet-img-one image{
+  width: 100%;
+  height: 502rpx;
+}
+.indexDet-text{
+  width: 100%;
+  padding-top: 22rpx;
+  padding-bottom: 92rpx;
+}
+.indexDet-title{
+  width: 100%;
+  height: 136rpx;
+  line-height: 136rpx;
+  font-size: 48rpx;
+  text-align: center;
+  color: #333;
+ 
+}
+.indexDet-futitle{
+  width: 90%;
+  height: 92rpx;
+  margin: 0 auto;
+}
+.indexDet-futitle-date{
+  float: left;
+  font-size: 24rpx;
+  color: #333;
+  width: 25%;
+}
+.indexDet-futitle-look{
+  float: left;
+  font-size: 24rpx;
+  color: #333;
+  width: 50%;
+  text-align: center;
+}
+.indexDet-futitle-look text{
+  color: #888;
+}
+.indexDet-futitle-share{
+  float: right;
+  font-size: 24rpx;
+  color: #333;
+  width: 25%;
+  text-align: right;
+}
+.indexDet-futitle-share text{
+  color: #888
+}
+.indexDet-comment{
+  width: 100%;
+  text-align: center;
+}
+.indexDet-comment text{
+  font-size: 30rpx;
+  color: #666;
+  line-height:40px;
+}
+.indexDet-footer{
+  width: 100%;
+  height: 92rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+.indexDet-footte-list{
+  flex: 1;
+}
+.indexDet-footte-list view{
+  width: 100%;
+  text-align: center;
+  height: 38rpx;
+  line-height: 38rpx;
+  font-size: 20rpx;
+  color: #333;
+}
+.indexDet-footte-list .indexDet-footte-list-cion{
+  width: 42rpx;
+  height: 54rpx;
+  margin: 0 auto;
+}
+.indexDet-footte-list .indexDet-footte-list-cion image{
+  height: 42rpx;
+  width: 42rpx;
+  margin-top: 10rpx;
+}

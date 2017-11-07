@@ -1,0 +1,36 @@
+<!-- 标题 -->
+<view class='interacts-top'>
+  <view class='interacts-top-title'>热门话题</view>
+  <image src='../../images/icon/icon_hengxian@2x.png'  class='interacts-top-img'></image>
+</view>
+<!-- 横向滚动 -->
+<scroll-view class='interacts-swiper'  scroll-x="true" scroll-with-animation="true" scroll-left="{{toview}}" bindscroll="scroll">
+  <block  wx:for="{{array}}"  wx:for-index="idx" >
+    <view class="interacts-swiper-list" id="{{idx}}">
+      <image src='{{item.imgs}}'></image>
+      <view>#{{item.title}}#</view>
+    </view>
+  </block>
+</scroll-view>
+<!-- 评论 -->
+<view class='interacts-comment'>
+  <view class='headImg'>
+    <image src='../../images/icon/icon_user_01.png'></image>
+  </view>
+  <view class='comment'>
+    <view class='userName'>梅洛斯之路</view>
+    <view class='contant'>这几天实在太冷了，办公室里冻得不行了，刚买的暖宝宝和小毯子到了，感觉人生又充满了力量！</view>
+    <view class='result'>
+      <view class='result-time'>14:21</view>
+      <view class='result-zan result-zan1' bindtap='clickme'>
+        <image src="{{active==1 ? resultIcon1 : resultIcon2}}" data-active="1"></image>
+        <view style='color:{{color}}'>{{resultZan}}</view>
+      </view>
+      <view class='result-zan'>
+        <image src='../../images/icon/icon_circle.png'></image>
+        <view>222</view>
+      </view>
+    </view>
+  </view>
+</view>
+

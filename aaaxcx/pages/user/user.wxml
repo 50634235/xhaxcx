@@ -1,0 +1,23 @@
+<view class='person-top'>
+  <image class='person-top-back' src='../../images/myself/back.png'></image>
+  <view class='person-top-image'>
+    <image src='{{userInfo.avatarUrl}}'></image>
+  </view>
+  <view class='person-top-name'>{{userInfo.nickName}}</view>
+  <!-- <view class='person-top-integral'>
+    <image src='../../images/icon/icon_my@2x.png'></image>
+    <view>255积分</view>
+  </view> -->
+</view>
+<!-- 列表 -->
+<block wx:for='{{array}}'>
+  <view class="person-contant-list">
+    <view class='person-contant-list-icon'>
+      <image src='{{item.imgs}}'></image>
+    </view>
+    <view class='person-contant-list-title'>{{item.title}}</view>
+    <view class='person-contant-list-more'>
+      <image src='../../images/icon/icon_more.png'></image>
+    </view>
+  </view>
+</block>

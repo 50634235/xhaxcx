@@ -1,0 +1,123 @@
+page{
+  background: #f9f9f9;
+}
+.interacts-top{
+  width: 100%;
+  height: 128rpx;
+  position: relative;
+}
+.interacts-top-title{
+  width: 100%;
+  height: 100%;
+  line-height: 128rpx;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.interacts-top-img{
+  width: 50rpx;
+  height: 8rpx;
+  position: absolute;
+  bottom: 30rpx;
+  left: 30rpx;
+}
+.interacts-swiper{
+  width: 100%;
+  height: 442rpx;
+  white-space: nowrap;
+}
+.interacts-swiper-list{
+  width: 265rpx;
+  height: 340rpx;
+  margin-right: 30rpx;
+  margin-top: 20rpx;
+  display: inline-block;
+}
+.interacts-swiper-list image{
+  width: 265rpx;
+  height: 265rpx;
+}
+.interacts-swiper-list view{
+  width: 265rpx;
+  height: 75rpx;
+  text-align: center;
+  line-height: 75rpx;
+  color: #666666;
+  font-size: 24rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.interacts-comment{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  min-height: 280rpx;
+  border-bottom: 2rpx solid #999;
+}
+.headImg{
+  width: 14.5%;
+  min-height: 260rpx;
+  height: auto;
+  float: left;
+}
+.headImg image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-top: 45rpx;
+  margin-left: 22rpx;
+}
+.comment{
+  width: 85.5%;
+  height: auto;
+  float: left;
+}
+.userName{
+  width: 100%;
+  height: 104rpx;
+  line-height: 130rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+.contant{
+  width: 90%;
+  height: auto;
+  font-size: 24rpx;
+  color: #333;
+  line-height: 35rpx;
+}
+.result{
+  width: 100%;
+  height: 65rpx;
+}
+.result-time{
+  width: 30%;
+  height: 65rpx;
+  line-height: 105rpx;
+  font-size: 24rpx;
+  color: #999;
+  float: left;
+}
+.result-zan{
+  float: left;
+  margin-right: 10rpx;
+}
+.result-zan1{
+  margin-left:150rpx;
+}
+.result-zan image{
+  width: 39rpx;
+  height: 39rpx;
+  float: left;
+  margin-top: 30rpx;
+}
+.result-zan view{
+  float: right;
+  min-width: 56rpx;
+  padding-left: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+  height: 65rpx;
+  line-height: 105rpx
+}

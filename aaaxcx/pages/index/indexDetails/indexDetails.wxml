@@ -1,0 +1,26 @@
+<view class='indexDet-img-one'>
+  <image src='../../../images/indexDet/indexDet_1@2x.png'></image>
+</view>
+<view class='indexDet-text'>
+  <view class='indexDet-title'>青岛十大必吃美食</view>
+  <view class='indexDet-futitle'>
+    <view class='indexDet-futitle-date'>2017-11-01</view>
+    <view class='indexDet-futitle-look'>7383 <text>浏览</text>  ·  177 <text>回复</text></view>
+    <view class='indexDet-futitle-share'>366<text>分享</text></view>
+  </view>
+  <view class='indexDet-comment'>
+    <text>{{txt1}}</text>
+    <image src='../../../images/indexDet/indexDet_2@2x.png' class='indexDet-img-one'></image>
+    <text>{{txt2}}</text>
+    <image src='../../../images/indexDet/indexDet_3@2x.png' class='indexDet-img-one'></image>
+    <text>{{txt3}}</text>
+  </view>
+  <view class='indexDet-footer'>
+    <view class='indexDet-footte-list' wx:for='{{array}}' bindtap='{{item.taps}}'>
+      <view class='indexDet-footte-list-cion'>
+        <image src='{{item.imgs}}'></image>
+      </view>
+      <view>{{item.num}}</view>
+    </view>
+  </view>
+</view>
