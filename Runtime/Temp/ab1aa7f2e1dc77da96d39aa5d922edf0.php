@@ -1,3 +1,0 @@
-<?php
-//000000000000a:17:{s:2:"id";s:2:"22";s:4:"name";s:5:"Wxxcx";s:5:"alias";s:15:"微信小程序";s:7:"version";s:5:"1.0.0";s:6:"is_com";s:1:"0";s:8:"show_nav";s:1:"0";s:7:"summary";s:21:"微信小程序接口";s:9:"developer";s:18:"青岛广电电商";s:7:"website";s:21:"http://www.tvplaza.cn";s:5:"entry";s:18:"Wxxcx/Member/index";s:8:"is_setup";s:1:"1";s:4:"sort";s:1:"0";s:4:"icon";s:3:"app";s:13:"can_uninstall";s:1:"1";s:11:"admin_entry";s:18:"Admin/Wxxcx/config";s:9:"menu_hide";s:1:"0";s:9:"auth_role";s:0:"";}
-?>
